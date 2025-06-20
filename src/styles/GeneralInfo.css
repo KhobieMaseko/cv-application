@@ -1,0 +1,168 @@
+.general-info {
+  margin-bottom: 1rem;
+}
+
+.general-info h2 {
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+  font-size: 1.5rem;
+}
+
+/* Form Styles */
+.general-info form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+/* Social Links Section */
+.social-links-section {
+  background-color: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.social-links-heading {
+  margin: 0 0 1.5rem 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.social-links-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .social-links-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Buttons */
+.save-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  width: auto;
+  min-width: 120px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.save-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-1px);
+}
+
+/* Info Display */
+.info-display {
+  padding: 1.5rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.info-section {
+  margin-bottom: 1.5rem;
+}
+
+.info-display p {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+}
+
+/* Social Links Display */
+.social-links-display {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background-color: #f0f2f5;
+  border-radius: 8px;
+}
+
+.social-links-display h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.2rem;
+  color: #2c3e50;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.social-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.social-links-list a {
+  color: #3498db;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.social-links-list a:hover {
+  text-decoration: underline;
+}
+
+/* Edit Button */
+.edit-button {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  width: auto;
+  min-width: 120px;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.edit-button:hover {
+  background-color: #e67e22;
+  transform: translateY(-1px);
+}
